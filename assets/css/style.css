@@ -1,0 +1,14 @@
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: blue;
+    color: #f2f2f2;
+    margin-bottom: -22px;
+}
