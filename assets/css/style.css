@@ -47,3 +47,9 @@ li {
 #logo {
     width: 15%;
 }
+
+#logo-description {
+    font-style: italic;
+    text-align: center;
+    text-size-adjust: 5px;
+}
