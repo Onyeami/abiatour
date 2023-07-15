@@ -122,6 +122,12 @@ h2,
     background-color: orange;
 }
 
+#attire-description {
+    font-style: italic;
+    margin: 0;
+    padding-top: 0;
+}
+
 footer {
     padding: 10px;
     text-align: center;
