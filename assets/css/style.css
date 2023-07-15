@@ -7,10 +7,9 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 0;
     background-color: red;
     color: #f2f2f2;
-    margin-bottom: -22px;
 }
 
 .navbar-item {
@@ -29,11 +28,6 @@ body {
     transform: scale(1.1);
 }
 
-.logo {
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -46,10 +40,29 @@ li {
 
 #logo {
     width: 15%;
+    padding: 0;
+    margin-left: 40px;
 }
 
 #logo-description {
     font-style: italic;
-    text-align: center;
-    text-size-adjust: 5px;
+    text-align: left;
+    font-size: small;
+    margin-top: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
 }
