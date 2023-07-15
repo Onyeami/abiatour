@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0;
-    background-color: red;
+    background-color: blue;
     color: #f2f2f2;
 }
 
@@ -55,15 +55,17 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px;
-    width: 80%;
+    padding: 40px;
+    width: 95%;
     flex-wrap: wrap;
+    margin: 0;
+
 }
 
 .column {
     flex: 1;
-    padding: 5px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     box-sizing: border-box;
 }
 
@@ -101,7 +103,7 @@ span {
     text-align: justify;
     font-style: oblique;
     color: blue;
-    line-height: 1.15;
+    line-height: 1.25;
 }
 
 .abia {
@@ -122,13 +124,17 @@ h2,
     background-color: orange;
 }
 
-#attire-description {
+figure>p {
+    text-align: center;
     font-style: italic;
-    margin: 0;
-    padding-top: 0;
+}
+
+#content {
+    background-color: green;
 }
 
 footer {
     padding: 10px;
     text-align: center;
+    background-color: red;
 }
