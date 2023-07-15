@@ -66,3 +66,57 @@ li {
     margin: 10px;
     box-sizing: border-box;
 }
+
+img {
+    max-width: 90%;
+    height: auto;
+}
+
+strong {
+    font-style: italic;
+    font-size: 30px;
+}
+
+span {
+    font-weight: bold;
+    color: blue;
+}
+
+#onye {
+    font-size: 40px;
+}
+
+#permit {
+    font-size: 20px;
+    font-style: oblique;
+    color: yellow;
+}
+
+.state,
+.readmore {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.abia {
+    background-color: brown;
+    color: white;
+}
+
+h2,
+#welcome {
+    text-align: center;
+}
+
+#ije {
+    font-size: 40px;
+}
+
+.article {
+    background-color: orange;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+}
