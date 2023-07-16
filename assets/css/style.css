@@ -58,7 +58,7 @@ li {
     flex-direction: row;
     justify-content: space-between;
     padding: 40px;
-    width: 95%;
+    width: 100%;
     flex-wrap: wrap;
     margin: 0;
 
@@ -129,10 +129,6 @@ h2,
 figure>p {
     text-align: center;
     font-style: italic;
-}
-
-#content {
-    background-color: blue;
 }
 
 footer {
