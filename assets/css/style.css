@@ -185,6 +185,11 @@ fieldset {
     margin-left: 20px;
 }
 
+#start {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
 #city {
     margin-bottom: 20px;
 
