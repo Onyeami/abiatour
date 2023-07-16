@@ -133,13 +133,29 @@ span {
     margin-top: -20px;
 }
 
-h2,
+
 #welcome {
     text-align: center;
+
 }
 
 #ije {
     font-size: 40px;
+}
+
+#services {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+#main {
+    font-size: larger;
+    text-align: center;
+    text-transform: capitalize;
+
 }
 
 .article {
