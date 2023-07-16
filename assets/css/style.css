@@ -172,6 +172,24 @@ span {
     padding-top: 0;
 }
 
+input:focus {
+    background-color: aqua;
+}
+
+fieldset {
+    width: 400px;
+    margin-left: 20px;
+}
+
+#aro {
+    margin-left: 20px;
+}
+
+#city {
+    margin-bottom: 20px;
+
+}
+
 figure>p {
     text-align: center;
     font-style: italic;
