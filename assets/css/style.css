@@ -142,6 +142,7 @@ span {
 
 #ije {
     font-size: 40px;
+    text-transform: uppercase;
 }
 
 #services {
@@ -204,10 +205,24 @@ figure>p {
 .contact {
     text-align: center;
     background-color: orchid;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 80;
     text-transform: uppercase;
-    margin-top: -60px;
+    margin-top: -50px;
+}
+
+#contact {
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.naija {
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: 30px;
+    line-height: 1.6;
+    font-style: italic;
+    font-weight: bold;
 }
 
 #abia {
