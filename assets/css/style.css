@@ -57,10 +57,10 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 30px;
     width: 90%;
     flex-wrap: wrap;
     margin-right: 20px;
+    margin-left: 20px;
     background-color: white;
 }
 
@@ -131,6 +131,7 @@ span {
 .abia {
     background-color: brown;
     margin-top: -20px;
+    margin-bottom: -10px;
 }
 
 
