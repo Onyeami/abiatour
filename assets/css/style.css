@@ -1,0 +1,212 @@
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    background-color: #f0f0f0;
+    color: #f2f2f2;
+}
+
+.navbar-item {
+    text-decoration: none;
+    color: #f2f2f2;
+    margin-left: 20px;
+    padding: 10px;
+    background: #555;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.navbar-item:hover {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+#logo {
+    width: 15%;
+    margin-left: 40px;
+    margin-top: -10px;
+}
+
+#logo-description {
+    font-style: italic;
+    text-align: left;
+    font-size: small;
+    margin-top: 0;
+    color: #555;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+strong {
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#mission {
+    font-size: large;
+    padding: 10px;
+    padding-bottom: 0;
+    text-transform: uppercase;
+}
+
+#world {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0;
+    font-style: oblique;
+}
+
+#tour {
+    font-size: large;
+    line-height: 1.6;
+}
+
+span {
+    font-weight: bold;
+    color: blue;
+}
+
+#onye {
+    font-size: 40px;
+}
+
+#permit {
+    font-size: 20px;
+    font-style: oblique;
+    color: yellow;
+}
+
+.state {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.readmore {
+    text-align: justify;
+    font-style: oblique;
+    color: blue;
+    line-height: 1.25;
+}
+
+.abia {
+    background-color: brown;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+
+#welcome {
+    text-align: center;
+
+}
+
+#ije {
+    font-size: 40px;
+}
+
+#services {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+#main {
+    font-size: larger;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.article {
+    background-color: #555;
+}
+
+#article {
+    font-size: 30px;
+    color: #f2f2f2;
+    text-align: center;
+    margin: 40px;
+    padding: 40px;
+    line-height: 1.2;
+    padding-top: 0;
+}
+
+input:focus {
+    background-color: aqua;
+}
+
+fieldset {
+    width: 400px;
+    margin-left: 20px;
+}
+
+#aro {
+    margin-left: 20px;
+}
+
+#start {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+#city {
+    margin-bottom: 20px;
+
+}
+
+figure>p {
+    text-align: center;
+    font-style: italic;
+}
+
+.text-center {
+    text-align: center;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
