@@ -201,6 +201,10 @@ figure>p {
     font-style: italic;
 }
 
+.text-center {
+    text-align: center;
+}
+
 footer {
     padding: 10px;
     text-align: center;
