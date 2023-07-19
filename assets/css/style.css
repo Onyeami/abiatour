@@ -236,6 +236,10 @@ figure>p {
     margin-right: 20px;
 }
 
+#get {
+    text-align: center;
+}
+
 table {
     border-collapse: collapse;
     width: 100%;
