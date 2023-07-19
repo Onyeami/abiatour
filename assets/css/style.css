@@ -291,7 +291,7 @@ tr:nth-child(even) {
     padding: 20px;
     font-size: 20px;
     font-weight: bold;
-    background-color: #ffffff;
+    background-color: orangered;
     line-height: 1.6;
     margin-top: -40px;
 }
