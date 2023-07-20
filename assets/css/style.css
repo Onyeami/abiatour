@@ -281,8 +281,6 @@ tr:nth-child(even) {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-
 }
 
 #about-us {
@@ -290,21 +288,10 @@ tr:nth-child(even) {
     width: 100%;
     padding: 20px;
     font-size: 20px;
-    font-weight: bold;
-    background-color: orangered;
+    font-weight: bol;
+    background-color: ogoldenrod;
     line-height: 1.6;
     margin-top: -40px;
-}
-
-.back {
-    background-image: url('assets/images/arochukwu-long.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    color: black;
-    text-align: center;
-    padding: 20px;
 }
 
 @media screen and (max-width: 600px) {
