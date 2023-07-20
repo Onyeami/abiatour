@@ -296,6 +296,14 @@ tr:nth-child(even) {
     margin-top: -40px;
 }
 
+.back {
+    background-image: url(assets/images/arochukwu-long.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
 @media screen and (max-width: 600px) {
     .navbar {
         flex-direction: column;
