@@ -187,7 +187,7 @@ input:focus {
 
 fieldset {
     width: 400px;
-    margin-left: 20px;
+
 }
 
 #aro {
@@ -297,11 +297,14 @@ tr:nth-child(even) {
 }
 
 .back {
-    background-image: url(assets/images/arochukwu-long.png);
+    background-image: url('assets/images/arochukwu-long.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    color: black;
+    text-align: center;
+    padding: 20px;
 }
 
 @media screen and (max-width: 600px) {
