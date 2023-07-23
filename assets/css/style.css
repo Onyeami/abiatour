@@ -55,15 +55,22 @@ h2 {
 }
 
 #welcome {
-    font-size: 40px;
+    font-size: 80px;
     font-weight: 100px;
     text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #onye {
     font-style: italic;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#permit {
     font-size: 20px;
     font-weight: bold;
+    font-style: oblique;
 }
 
 #ije {
@@ -75,7 +82,7 @@ h2 {
 
 strong {
     color: rgb(76, 0, 255);
-    font-size: medium;
+    font-size: 25px;
     text-transform: capitalize;
 }
 
