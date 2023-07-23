@@ -80,10 +80,20 @@ strong {
 }
 
 .column {
-    width: 600px;
-    float: left;
+    flex: 1;
+    padding: 10px;
     margin: 10px;
-    background: gray;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 img {
