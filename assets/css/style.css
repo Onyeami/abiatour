@@ -43,3 +43,7 @@ a:hover {
     background: greenyellow;
     transition: all 0.3s ease;
 }
+
+h3 {
+    margin-left: 20px;
+}
