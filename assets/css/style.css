@@ -5,15 +5,15 @@ body {
 }
 
 nav {
-    background: #0082e6;
-    height: 80px;
+    background: green;
+    height: 70px;
     width: 100%;
 }
 
-label.logo {
+.logo {
     color: white;
-    font-size: 35px;
-    line-height: 80px;
+    font-size: 30px;
+    line-height: 70px;
     padding: 0 100px;
     font-weight: bold;
 }
@@ -25,6 +25,21 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    line-height: 80px;
+    line-height: 70px;
     margin: 0 5px;
+}
+
+nav ul li a {
+    color: #555;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.navbar-item,
+a:hover {
+    background: greenyellow;
+    transition: all 0.3s ease;
 }
