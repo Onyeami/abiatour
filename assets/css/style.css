@@ -31,7 +31,7 @@ nav ul li {
 
 nav ul li a {
     color: #555;
-    font-size: 17px;
+    font-size: 15px;
     text-transform: uppercase;
     padding: 6px 12px;
     border-radius: 5px;
@@ -42,4 +42,37 @@ nav ul li a {
 a:hover {
     background: greenyellow;
     transition: all 0.3s ease;
+}
+
+h5 {
+    margin: 20px;
+    margin-top: 0;
+}
+
+.welcome {
+    text-align: center;
+}
+
+div>h1 {
+    font-size: 40px;
+    font-weight: 100px;
+    text-transform: uppercase;
+}
+
+div>p {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+span {
+    color: rgb(30, 210, 201);
+    text-transform: uppercase;
+    font-size: 25px;
+    font-style: normal;
+}
+
+strong {
+    color: orange;
+    font-size: large;
 }
