@@ -121,6 +121,19 @@ img {
     color: white;
 }
 
-.article {
+#services {
     text-align: center;
+    font-size: 60px;
+}
+
+#articles {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#embark {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+
 }
