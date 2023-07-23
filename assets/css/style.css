@@ -1,5 +1,30 @@
 body {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: montserrat, Arial, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+nav {
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
 }
