@@ -49,7 +49,8 @@ h5 {
     margin-top: 0;
 }
 
-.welcome {
+.welcome,
+h2 {
     text-align: center;
 }
 
@@ -59,7 +60,7 @@ h5 {
     text-transform: uppercase;
 }
 
-div>p {
+#onye {
     font-style: italic;
     font-size: 20px;
     font-weight: bold;
@@ -78,6 +79,18 @@ strong {
     text-transform: capitalize;
 }
 
+.column1,
+.column2 {
+    width: 600px;
+    float: left;
+    margin: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .abia {
-    background: gray;
+    background: red;
 }
