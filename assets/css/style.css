@@ -118,5 +118,9 @@ img {
     font-style: oblique;
     line-height: 1.6;
     text-align: justify;
-    color: plum;
+    color: white;
+}
+
+.article {
+    text-align: center;
 }
