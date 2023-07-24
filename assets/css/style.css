@@ -137,3 +137,47 @@ img {
     font-weight: bold;
 
 }
+
+.testimonals {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.testimonals h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.testimonals blockquote {
+    background-color: #f8f8f8;
+    border-left: 4px solid #3498db;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-style: italic;
+    position: relative;
+}
+
+.testimonals blockquote ::before {
+    content: "\201c";
+    font-size: 40px;
+    color: #3498db;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+.testimonals blockquote p {
+    margin: 0;
+}
+
+.testimonals blockquote cite {
+    display: block;
+    text-align: right;
+    font-style: normal;
+    color: #555;
+    margin-top: 10px;
+}
