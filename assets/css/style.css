@@ -138,46 +138,29 @@ img {
 
 }
 
-.testimonals {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
+.testimonal {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #17a2b8;
 }
 
-.testimonals h2 {
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 20px;
+.wrapper {
+    max-width: 1200px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.testimonals blockquote {
-    background-color: #f8f8f8;
-    border-left: 4px solid #3498db;
-    padding: 10px;
-    margin-bottom: 20px;
-    font-style: italic;
-    position: relative;
+.wrapper .box {
+    background: #fff;
+    border-radius: 3px;
+    padding: 25px;
+    width: calc(33% - 10px);
 }
 
-.testimonals blockquote ::before {
-    content: "\201c";
-    font-size: 40px;
-    color: #3498db;
-    position: absolute;
-    top: -10px;
-    left: -10px;
-}
-
-.testimonals blockquote p {
-    margin: 0;
-}
-
-.testimonals blockquote cite {
-    display: block;
-    text-align: right;
-    font-style: normal;
-    color: #555;
-    margin-top: 10px;
+.wrapper .box i.quote {
+    font-size: 20px;
+    color: #17a2b8;
 }
