@@ -154,45 +154,37 @@ img {
     justify-content: space-between;
 }
 
-.wrapper .box {
+.box {
     background: #fff;
     border-radius: 3px;
     padding: 25px;
     width: calc(33% - 10px);
 }
 
-.wrapper .box {
-    font-size: 20px;
-    color: #17a2b8;
-}
-
-.wrapper .box .info .name {
+.name {
     font-size: 17px;
     font-weight: 600;
 }
 
-.wrapper .box .info .job {
+.job {
     color: #17a2b8;
     font-size: 16px;
     font-weight: 500;
 }
 
-.wrapper .box .tour {
+.tour {
     padding-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.wrapper .box .info {
+.info {
     margin-top: 2px;
-}
-
-.box .info {
     color: #17a2b8;
 }
 
-.wrapper .box .tour .image {
+.image {
     height: 75px;
     width: 75px;
     padding: 3px;
@@ -200,7 +192,7 @@ img {
     border-radius: 50%;
 }
 
-.box .content .image img {
+.photo {
     height: 100%;
     width: 100%;
     object-fit: cover;
