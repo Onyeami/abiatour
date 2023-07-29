@@ -110,7 +110,13 @@ img {
 }
 
 #attire-description,
-#map-description {
+#map-description,
+#shrine-description,
+#azumini-description,
+#ofe-description,
+#akwete-description,
+#shoe-description,
+#ekpo-description {
     padding-top: 0;
     font-style: italic;
     text-align: left;
